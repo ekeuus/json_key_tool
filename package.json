@@ -1,0 +1,24 @@
+{
+  "name": "json_key_tool",
+  "version": "1.0.0",
+  "description": "JSON recursive value tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekeuus/json_key_tool.git"
+  },
+  "keywords": [
+    "json",
+    "jest",
+    "test"
+  ],
+  "author": "Ekke Uustalu & Jan Toodre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekeuus/json_key_tool/issues"
+  },
+  "homepage": "https://github.com/ekeuus/json_key_tool#readme"
+}
