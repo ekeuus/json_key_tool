@@ -1,6 +1,6 @@
 {
   "name": "json_key_tool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JSON recursive value tool",
   "main": "index.js",
   "scripts": {
