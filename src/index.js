@@ -42,6 +42,6 @@ const getValuesForKeys = (keys, file) =>
     
 export default {
 	getValuesForKeys,
-	path,
+	paths,
 	pathToString,
 }
