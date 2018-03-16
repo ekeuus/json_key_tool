@@ -1,10 +1,12 @@
 {
   "name": "json_key_tool",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "JSON recursive value tool",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src --presets babel-preset-env --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/ekeuus/json_key_tool/issues"
   },
-  "homepage": "https://github.com/ekeuus/json_key_tool#readme"
+  "homepage": "https://github.com/ekeuus/json_key_tool#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
 }
